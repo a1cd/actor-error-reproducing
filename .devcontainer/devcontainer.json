@@ -5,7 +5,7 @@
 
     // Set the Docker image to use
     // I will explain this below
-    "image":"ewpratten/frc_devcontainer:2020.3.2",
+    "image":"ghcr.io/a1cd/frc-devcontainer:master",
 
     // Set any default VSCode settings here
     "settings": {
