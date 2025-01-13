@@ -29,5 +29,5 @@
         // The WPILib extension itself
         "wpilibsuite.vscode-wpilib"
     ],
-    "postStartCommand": "chmod a+x ./gradlew
+    "postStartCommand": "chmod a+x ./gradlew; ./gradlew build"
 }
