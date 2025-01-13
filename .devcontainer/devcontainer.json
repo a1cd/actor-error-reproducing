@@ -14,7 +14,7 @@
 
     // Tell VSCode where to find the workspace directory
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/actor-error-reproducing,type=bind,consistency=cached",
-    "workspaceFolder": "/root/workspace",
+    "workspaceFolder": "/workspaces/actor-error-reproducing",
 
     // Allow the host and container docker daemons to communicate
     "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind" ],
@@ -28,5 +28,6 @@
 
         // The WPILib extension itself
         "wpilibsuite.vscode-wpilib"
-    ]
+    ],
+    "postStartCommand": "chmod a+x ./gradlew
 }
