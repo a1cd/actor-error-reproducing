@@ -13,7 +13,7 @@
     },
 
     // Tell VSCode where to find the workspace directory
-    "workspaceMount": "source=${localWorkspaceFolder},target=/root/workspace,type=bind,consistency=cached",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/actor-error-reproducing,type=bind,consistency=cached",
     "workspaceFolder": "/root/workspace",
 
     // Allow the host and container docker daemons to communicate
