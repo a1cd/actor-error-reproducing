@@ -5,7 +5,9 @@
 
     // Set the Docker image to use
     // I will explain this below
-    "dockerfile":"Dockerfile",
+    build: {
+        "dockerfile":"Dockerfile"
+    },
 
     // Set any default VSCode settings here
     "settings": {
