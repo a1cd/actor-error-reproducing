@@ -33,9 +33,9 @@ public final class Main {
    * <p>If you change your main robot class, change the parameter type.
    */
   public static void main(String... args) {
-    robot();
+    // robot();
     // unitTestHello();
-    // unitTest();
+    unitTest();
   }
 
   public static void robot() {
